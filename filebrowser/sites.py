@@ -269,7 +269,7 @@ class FileBrowserSite(object):
     @property
     def urls(self):
         "filebrowser.site URLs"
-        return self.get_urls(), self.app_name, self.name
+        return self.get_urls(), self.app_name
 
     def browse(self, request):
         "Browse Files/Directories."
